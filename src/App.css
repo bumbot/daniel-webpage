@@ -36,3 +36,95 @@
     transform: rotate(360deg);
   }
 }
+
+.steak {
+  width: 200px;
+  height: 150px;
+}
+
+.daniel {
+  height: 500px;
+  width: 350px !important;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-image: url('./images/background_image.jpeg');
+  background-size: cover;
+  background-position: fill;
+}
+
+/* .Home {
+  background-repeat: no-repeat;
+  background-image: url('./images/home-background.jpg');
+  background-size: cover;
+  background-position: fill;
+  background-origin: content-box;
+} */
+
+.home-card {
+  margin-left: 35%;
+  margin-right: 20%;
+  margin-top: 2%;
+  height: 20%;
+  width: 30%;
+}
+
+.tigger {
+  height: 500px;
+  width: 350px !important;
+}
+
+.puzzle-toast {
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.puzzle-pic {
+  
+}
+
+.Board {
+  margin-left: 30%;
+}
+
+.board-title {
+  text-align: justify;
+  color: orange;
+}
+
+.square-box:hover {
+  border: 2px solid #61dafb;
+}
+
+.square-box {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 200px;
+  height: 200px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 200px;
+  color: black;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.clear-button {
+  margin-left: 10%;
+}
+
+.win-toast {
+  margin-left: 10%;
+  /* margin-top: 30%; */
+  z-index: 10;
+}
