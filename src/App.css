@@ -76,12 +76,14 @@ body {
 }
 
 .puzzle-toast {
-  margin-left: 40%;
+  margin-left: 38%;
   margin-right: 40%;
+  width: 400px;
 }
 
 .puzzle-pic {
-  
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .Board {

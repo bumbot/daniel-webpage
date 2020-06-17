@@ -16,13 +16,17 @@ import puzzle10 from '../images/puzzle10.jpeg';
 import puzzle11 from '../images/puzzle11.jpeg';
 import puzzle12 from '../images/puzzle12.jpeg';
 import puzzle13 from '../images/puzzle13.jpeg';
+import puzzle14 from '../images/puzzle14.jpeg';
+import puzzle15 from '../images/puzzle15.jpeg';
 
 export default class Puzzle extends Component {
     constructor() {
         super();
         this.state = {
             showToast: true,
-            imgArray: [puzzle1, puzzle2, puzzle3, puzzle4, puzzle5, puzzle6, puzzle7, puzzle8, puzzle9, puzzle10, puzzle11, puzzle12, puzzle13],
+            imgArray: [puzzle1, puzzle2, puzzle3, puzzle4, puzzle5,
+                       puzzle6, puzzle7, puzzle8, puzzle9, puzzle10,
+                       puzzle11, puzzle12, puzzle13, puzzle14, puzzle15],
             descriptionArray: [
                 "Wreck-It Ralph! This one was a fun piece to work on!",
                 "Wish we had Coco's head...and hands :(",
@@ -36,7 +40,9 @@ export default class Puzzle extends Component {
                 "Bonjour mes amis, je m'appelle Daniel",
                 "Oui",
                 "Dogs can be scary, but puppies are great fun :)",
-                "Pandas have big bellies, I wish I could touch their bellies and laugh along with them as they eat too!"
+                "Pandas have big bellies, I wish I could touch their bellies and laugh along with them as they eat too!",
+                "SUCCESS!",
+                "This was a big puzzle, we had to do it on the floor!"
             ]
         }
     }
